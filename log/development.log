@@ -2390,3 +2390,1591 @@ ArgumentError (wrong number of arguments (1 for 0)):
   Rendered /Users/Nestor/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
   Rendered /Users/Nestor/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
   Rendered /Users/Nestor/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-13 08:38:53 -0400
+Processing by StaticPagesController#home as HTML
+home called
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Compiled jquery.js  (1ms)  (pid 44603)
+Compiled jquery_ujs.js  (0ms)  (pid 44603)
+Compiled application.js  (18ms)  (pid 44603)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 08:38:54 -0400
+Served asset /static_pages.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 08:38:54 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 08:38:54 -0400
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 08:38:54 -0400
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 08:38:54 -0400
+Served asset /application.js - 200 OK (20ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 08:38:54 -0400
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:38:56 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+Completed 500 Internal Server Error in 0ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/helpers/image_magick_test_script_helper.rb:6:in `process_image'
+  app/controllers/static_pages_controller.rb:12:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:42:38 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+Completed 500 Internal Server Error in 1ms
+
+NameError (undefined local variable or method `dropbox_path' for #<StaticPagesController:0x007fe678f4ed20>):
+  app/controllers/static_pages_controller.rb:13:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:42:40 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+Completed 500 Internal Server Error in 1ms
+
+NameError (undefined local variable or method `dropbox_path' for #<StaticPagesController:0x007fe6792e3648>):
+  app/controllers/static_pages_controller.rb:13:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:42:41 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+Completed 500 Internal Server Error in 2ms
+
+NameError (undefined local variable or method `dropbox_path' for #<StaticPagesController:0x007fe67a524758>):
+  app/controllers/static_pages_controller.rb:13:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:42:41 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+Completed 500 Internal Server Error in 1ms
+
+NameError (undefined local variable or method `dropbox_path' for #<StaticPagesController:0x007fe67bdec628>):
+  app/controllers/static_pages_controller.rb:13:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:42:41 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+Completed 500 Internal Server Error in 18ms
+
+NameError (undefined local variable or method `dropbox_path' for #<StaticPagesController:0x007fe67bb09ff0>):
+  app/controllers/static_pages_controller.rb:13:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:42:41 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+Completed 500 Internal Server Error in 1ms
+
+NameError (undefined local variable or method `dropbox_path' for #<StaticPagesController:0x007fe679564e58>):
+  app/controllers/static_pages_controller.rb:13:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:43:51 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/wrap_generator/source_images/
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `artwork_file_name' for nil:NilClass):
+  app/controllers/static_pages_controller.rb:13:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:43:58 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/wrap_generator/source_images/
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 08:43:58 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 08:43:58 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 08:43:58 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 08:43:58 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 08:43:58 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 08:43:58 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:44:01 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/wrap_generator/source_images/
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 08:44:01 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 08:44:01 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:01 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:44:03 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/wrap_generator/source_images/
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 08:44:03 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 08:44:03 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:03 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:03 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:03 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:44:03 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/wrap_generator/source_images/
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:04 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:04 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 08:44:04 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 08:44:04 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 08:44:04 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:46:44 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/source.jpg
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 08:46:44 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 08:46:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 08:46:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 08:46:44 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 08:46:44 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 08:46:44 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:48:47 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/source.jpg
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+Completed 500 Internal Server Error in 0ms
+
+NameError (undefined local variable or method `magic_image' for ImageMagickTestScriptHelper:Module):
+  app/helpers/image_magick_test_script_helper.rb:36:in `run_script'
+  app/helpers/image_magick_test_script_helper.rb:29:in `process_image'
+  app/controllers/static_pages_controller.rb:30:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:48:50 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/source.jpg
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+Completed 500 Internal Server Error in 0ms
+
+NameError (undefined local variable or method `magic_image' for ImageMagickTestScriptHelper:Module):
+  app/helpers/image_magick_test_script_helper.rb:36:in `run_script'
+  app/helpers/image_magick_test_script_helper.rb:29:in `process_image'
+  app/controllers/static_pages_controller.rb:30:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:49:02 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/source.jpg
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `write' for "":String):
+  app/helpers/image_magick_test_script_helper.rb:47:in `save_image'
+  app/helpers/image_magick_test_script_helper.rb:36:in `run_script'
+  app/helpers/image_magick_test_script_helper.rb:29:in `process_image'
+  app/controllers/static_pages_controller.rb:30:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:50:44 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/source.jpg
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `write' for "":String):
+  app/helpers/image_magick_test_script_helper.rb:47:in `save_image'
+  app/helpers/image_magick_test_script_helper.rb:36:in `run_script'
+  app/helpers/image_magick_test_script_helper.rb:29:in `process_image'
+  app/controllers/static_pages_controller.rb:30:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:51:12 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/source.jpg
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `artwork_file_name' for nil:NilClass):
+  app/controllers/static_pages_controller.rb:27:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:51:35 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/source.jpg
+Completed 500 Internal Server Error in 14ms
+
+Magick::ImageMagickError (unable to open image `/Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/source.jpg': No such file or directory @ error/blob.c/OpenBlob/2638):
+  app/controllers/static_pages_controller.rb:27:in `read'
+  app/controllers/static_pages_controller.rb:27:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:52:03 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/source.jpg
+Completed 500 Internal Server Error in 0ms
+
+Magick::ImageMagickError (unable to open image `/Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/source.jpg': No such file or directory @ error/blob.c/OpenBlob/2638):
+  app/controllers/static_pages_controller.rb:29:in `read'
+  app/controllers/static_pages_controller.rb:29:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:52:50 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/wrap_generator/source_images/source.jpg
+Completed 500 Internal Server Error in 1ms
+
+Magick::ImageMagickError (unable to open image `/Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/wrap_generator/source_images/source.jpg': No such file or directory @ error/blob.c/OpenBlob/2638):
+  app/controllers/static_pages_controller.rb:27:in `read'
+  app/controllers/static_pages_controller.rb:27:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:53:17 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/wrap_generator/source_images/source.jpg
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+Completed 500 Internal Server Error in 54ms
+
+Magick::ImageMagickError (unable to open image `/Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/test1.jpg': No such file or directory @ error/blob.c/OpenBlob/2638):
+  app/helpers/image_magick_test_script_helper.rb:47:in `write'
+  app/helpers/image_magick_test_script_helper.rb:47:in `save_image'
+  app/helpers/image_magick_test_script_helper.rb:36:in `run_script'
+  app/helpers/image_magick_test_script_helper.rb:29:in `process_image'
+  app/controllers/static_pages_controller.rb:30:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:54:13 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/wrap_generator/source_images/source.jpg
+Completed 500 Internal Server Error in 1ms
+
+Magick::ImageMagickError (unable to open image `/Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/wrap_generator/source_images/source.jpg': No such file or directory @ error/blob.c/OpenBlob/2638):
+  app/controllers/static_pages_controller.rb:29:in `read'
+  app/controllers/static_pages_controller.rb:29:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:54:24 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+Completed 500 Internal Server Error in 48ms
+
+Magick::ImageMagickError (unable to open image `/Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/test1.jpg': No such file or directory @ error/blob.c/OpenBlob/2638):
+  app/helpers/image_magick_test_script_helper.rb:47:in `write'
+  app/helpers/image_magick_test_script_helper.rb:47:in `save_image'
+  app/helpers/image_magick_test_script_helper.rb:36:in `run_script'
+  app/helpers/image_magick_test_script_helper.rb:29:in `process_image'
+  app/controllers/static_pages_controller.rb:32:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:55:02 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+Completed 500 Internal Server Error in 49ms
+
+Magick::ImageMagickError (unable to open image `/Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/test1.jpg': No such file or directory @ error/blob.c/OpenBlob/2638):
+  app/helpers/image_magick_test_script_helper.rb:47:in `write'
+  app/helpers/image_magick_test_script_helper.rb:47:in `save_image'
+  app/helpers/image_magick_test_script_helper.rb:36:in `run_script'
+  app/helpers/image_magick_test_script_helper.rb:29:in `process_image'
+  app/controllers/static_pages_controller.rb:32:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:55:20 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+Completed 500 Internal Server Error in 49ms
+
+Magick::ImageMagickError (unable to open image `/Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Developmentapp/assets/images/wrap_generator/source_images/test1.jpg': No such file or directory @ error/blob.c/OpenBlob/2638):
+  app/helpers/image_magick_test_script_helper.rb:47:in `write'
+  app/helpers/image_magick_test_script_helper.rb:47:in `save_image'
+  app/helpers/image_magick_test_script_helper.rb:36:in `run_script'
+  app/helpers/image_magick_test_script_helper.rb:29:in `process_image'
+  app/controllers/static_pages_controller.rb:32:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 08:55:57 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
++++++++++++++
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 158ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 08:55:57 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 08:55:57 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 08:55:57 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 08:55:57 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 08:55:57 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 08:55:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/image_exports/test1.jpg" for 127.0.0.1 at 2013-09-13 08:55:57 -0400
+Served asset /image_exports/test1.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/image_exports/test1.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-13 09:00:45 -0400
+Processing by StaticPagesController#home as HTML
+home called
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:00:47 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 150ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:00:47 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:00:47 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:00:47 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:00:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:00:47 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:00:47 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/image_exports/test1.jpg" for 127.0.0.1 at 2013-09-13 09:00:47 -0400
+Served asset /image_exports/test1.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/image_exports/test1.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:01:10 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (35.5ms)
+Completed 500 Internal Server Error in 178ms
+
+ActionView::Template::Error (undefined local variable or method `image_name' for #<#<Class:0x007fe6795f6ab0>:0x007fe678b23318>):
+    5: 		<img src="/assets/source.jpg %>" height="400"/>
+    6: 	</tr>
+    7: 	<p>
+    8: 		<%= image_name %>
+    9: 	</p>
+    10: 
+    11: 	<p>
+  app/views/static_pages/execute_script.html.erb:8:in `_app_views_static_pages_execute_script_html_erb__1517479950079737660_70313958528140'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:01:38 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 150ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:01:39 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:01:39 -0400
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:39 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:39 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:39 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/image_exports/test1.jpg" for 127.0.0.1 at 2013-09-13 09:01:39 -0400
+Served asset /image_exports/test1.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/image_exports/test1.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:01:48 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 150ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:01:48 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:01:48 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:48 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:48 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/image_exports/test1.jpg" for 127.0.0.1 at 2013-09-13 09:01:48 -0400
+Served asset /image_exports/test1.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/image_exports/test1.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:01:56 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 149ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:56 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:01:56 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:56 -0400
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:01:56 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:01:56 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/image_exports/test1.jpg" for 127.0.0.1 at 2013-09-13 09:01:56 -0400
+Served asset /image_exports/test1.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/image_exports/test1.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:02:00 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 156ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:02:00 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:02:00 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:01 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/image_exports/test1.jpg" for 127.0.0.1 at 2013-09-13 09:02:01 -0400
+Served asset /image_exports/test1.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/image_exports/test1.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:02:26 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 150ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:02:26 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:26 -0400
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:02:26 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:26 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/image_exports/test1.jpg" for 127.0.0.1 at 2013-09-13 09:02:26 -0400
+Served asset /image_exports/test1.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/image_exports/test1.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:02:39 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 149ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:02:39 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:39 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:39 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:02:39 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:02:39 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/image_exports/test1.jpg" for 127.0.0.1 at 2013-09-13 09:02:39 -0400
+Served asset /image_exports/test1.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/image_exports/test1.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:03:34 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 149ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:03:34 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:03:34 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:03:34 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:03:34 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:03:34 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:03:34 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/processed/test1.jpg" for 127.0.0.1 at 2013-09-13 09:03:34 -0400
+Served asset /processed/test1.jpg - 200 OK (5ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:03:45 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 151ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:03:46 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:03:46 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:03:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:03:46 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:03:46 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:03:46 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/processed/test1.jpg" for 127.0.0.1 at 2013-09-13 09:03:46 -0400
+Served asset /processed/test1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:23:21 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+Completed 500 Internal Server Error in 42ms
+
+NoMethodError (undefined method `process_image' for ImageMagickTestScriptHelper:Module):
+  app/controllers/static_pages_controller.rb:32:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:24:06 -0400
+
+TypeError (wrong argument type Class (expected Module)):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/static_pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-13 09:39:43 -0400
+Processing by StaticPagesController#home as HTML
+home called
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:39:43 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:39:43 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:39:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:39:43 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:39:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:39:43 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:39:52 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+Completed 500 Internal Server Error in 42ms
+
+ArgumentError (wrong number of arguments (1 for 2)):
+  app/helpers/image_magick_test_script_helper.rb:37:in `process_image'
+  app/controllers/static_pages_controller.rb:32:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:41:13 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+Completed 500 Internal Server Error in 41ms
+
+NameError (undefined local variable or method `logger' for ImageMagickTestScriptHelper:Module):
+  app/helpers/image_magick_test_script_helper.rb:51:in `save_rmagick_image'
+  app/helpers/image_magick_test_script_helper.rb:11:in `run_script'
+  app/helpers/image_magick_test_script_helper.rb:42:in `process_image'
+  app/controllers/static_pages_controller.rb:32:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:41:51 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+Completed 500 Internal Server Error in 48ms
+
+NameError (undefined local variable or method `export_path' for ImageMagickTestScriptHelper:Module):
+  app/helpers/image_magick_test_script_helper.rb:51:in `save_rmagick_image'
+  app/helpers/image_magick_test_script_helper.rb:11:in `run_script'
+  app/helpers/image_magick_test_script_helper.rb:42:in `process_image'
+  app/controllers/static_pages_controller.rb:32:in `execute_script'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:42:03 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+Saving /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/processed/exported.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 150ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:42:03 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:42:03 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:42:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:42:03 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:42:03 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:42:03 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/processed/exported.jpg" for 127.0.0.1 at 2013-09-13 09:42:03 -0400
+Served asset /processed/exported.jpg - 200 OK (4ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:44:17 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+Saving /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/processed/exported.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 148ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:44:17 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:44:17 -0400
+Served asset /static_pages.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:44:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:44:17 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:44:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:44:17 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/processed/exported.jpg" for 127.0.0.1 at 2013-09-13 09:44:17 -0400
+Served asset /processed/exported.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:44:21 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+Saving /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/processed/exported.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 149ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:44:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:44:21 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:44:21 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:44:21 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:44:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:44:21 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/processed/exported.jpg" for 127.0.0.1 at 2013-09-13 09:44:21 -0400
+Served asset /processed/exported.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images/source.jpg" for 127.0.0.1 at 2013-09-13 09:44:36 -0400
+Served asset /images/source.jpg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/source.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/source.jpg" for 127.0.0.1 at 2013-09-13 09:44:44 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/source.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/source.jpg" for 127.0.0.1 at 2013-09-13 09:45:01 -0400
+Served asset /source.jpg - 200 OK (6ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:45:08 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+Saving /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/processed/exported.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 150ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:45:08 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:45:08 -0400
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:45:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:45:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:45:08 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:45:08 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/processed/exported.jpg" for 127.0.0.1 at 2013-09-13 09:45:08 -0400
+Served asset /processed/exported.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/source.jpg%20%25%3E" for 127.0.0.1 at 2013-09-13 09:45:26 -0400
+Served asset /source.jpg%20%25%3E - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/source.jpg%20%25%3E"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/NestorCorrea/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/source.jpg" for 127.0.0.1 at 2013-09-13 09:45:32 -0400
+Served asset /source.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/execute_scritpt/" for 127.0.0.1 at 2013-09-13 09:45:45 -0400
+Processing by StaticPagesController#execute_script as HTML
+execute_script called
+########loading image from /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/source.jpg
+Saving /Users/NestorCorrea/Projects/GelaSkins/Repositories/Git/GelaSkins/Imagemagick_Development/app/assets/images/processed/exported.jpg
+  Rendered static_pages/execute_script.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 176ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-13 09:45:45 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-13 09:45:45 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-13 09:45:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-13 09:45:45 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-13 09:45:45 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-13 09:45:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/source.jpg" for 127.0.0.1 at 2013-09-13 09:45:45 -0400
+Served asset /source.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/processed/exported.jpg" for 127.0.0.1 at 2013-09-13 09:45:45 -0400
+Served asset /processed/exported.jpg - 304 Not Modified (1ms)
