@@ -1,0 +1,17 @@
+<div class="main-div">
+	<p id="notice"><%= notice %></p>
+
+	<% @wrap_array.each do |image_name| %>
+		<tr>
+			<img src="/assets/image_exports/<%= image_name %>" height="400"/>
+		</tr>
+		<p>
+			<%= image_name %>
+		</p>
+
+		<p>
+			--------------------------------------------------------------------------
+		</p>
+	<% end %>
+</div>
+
